@@ -20,15 +20,22 @@ public class g2e11 {
         for (int i=0; i< vector_entrada.length; i+=2) {
             String patente = vector_entrada[i];
             String estado = vector_entrada[i+1];
-            if(estado.equals("0")){
-                patentesok[i] = patente;
-                estadov[0]++;
-            }else if (estado.equals("1")){
-                estadov[1]++;
-            }else if (estado.equals("2")){
-                estadov[2]++;
-            }else if (estado.equals("3")){
-                estadov[3]++;
+            switch (estado) {
+                case "0":
+                    patentesok[i] = patente;
+                    estadov[0]++;
+                    break;
+                case "1":
+                    estadov[1]++;
+                    break;
+                case "2":
+                    estadov[2]++;
+                    break;
+                case "3":
+                    estadov[3]++;
+                    break;
+                default:
+                    break;
             }
         }
         // Imprimir los estados
