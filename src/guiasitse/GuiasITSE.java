@@ -5,9 +5,11 @@
  */
 package guiasitse;
 
+import guia.g2.g2e11;
+
 /**
  *
- * @author snob
+ * @author Kevin
  */
 public class GuiasITSE {
 
@@ -15,7 +17,14 @@ public class GuiasITSE {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Ejecución de ejercicios
+        // Guia 1
+        
+        // Guia 2
+            System.out.println("Ejercicio 11: ");
+            g2e11.main(args);
+        // TODO Aprender a hacer tests en java para aplicar un sistema de tests para cada ejercicio
+        // (Si es que sobran ganas, obviamente)...
     }
     
 }

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package guia.dos;
+package guia.g2;
 
 /**
  *
  * @author snob
  */
-public class e11 {
+public class g2e11 {
     public static void main(String[] args) {
         // Contador de estados 0  1  2  3
         int[] estadov    =    {0, 0, 0, 0};
